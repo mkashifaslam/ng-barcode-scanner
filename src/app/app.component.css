@@ -1,0 +1,20 @@
+.container {
+  width: 80%;
+  margin: 25px auto;
+  padding: 15px;
+  border: 2px solid red;
+}
+
+.barcode-reader {
+  width: 650px;
+  height: 300px;
+  margin: 20px auto;
+}
+
+.barcode-container {
+  top: 15rem;
+  color: black;
+  padding: 15px;
+  position: relative;
+  border: 2px solid red;
+}
