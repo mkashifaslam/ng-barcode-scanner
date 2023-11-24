@@ -70,10 +70,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "barcode-scanner:build:production"
+              "buildTarget": "barcode-scanner:build:production"
             },
             "development": {
-              "browserTarget": "barcode-scanner:build:development"
+              "buildTarget": "barcode-scanner:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -81,7 +81,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "barcode-scanner:build"
+            "buildTarget": "barcode-scanner:build"
           }
         },
         "test": {
